@@ -38,4 +38,4 @@ Contributions are welcome! If you encounter any bugs or have suggestions for imp
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/license/MIT).
