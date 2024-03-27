@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Auto Accept",
+    "version": "1.0",
+    "description": "Automatically accept connection requests on LinkedIn.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
